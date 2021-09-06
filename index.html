@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ElClima</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-all">
+      <header class="header">
+        <div class="titulo"><h1>ElClima</h1></div>
+        <div class="nav">
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/">Valor</a></li>
+            <li><a href="/">Explicacion</a></li>
+          </ul>
+        </div>
+      </header>
+      <br />
+      <div class="presentacion">
+        <div class="presentacion-izquierda">
+          <h2>Vea el valor del dolar a pesos argentinos <span>HOY</span></h2>
+          <img
+            src="./asset/images/bank-notes-941246_640.jpg"
+            class="dolar-img"
+            alt=""
+          />
+        </div>
+        <div class="presentacion-derecha">
+          <div class="contenedor-radius">
+            <h2 class="dolar">Precio del dolar</h2>
+            <div class="dolar">
+              <h4>OFICIAL</h4>
+              <h5>Compra: <span id="oficial-compra"></span></h5>
+              <h5>Venta: <span id="oficial-venta"></span></h5>
+            </div>
+            <div class="dolar">
+              <h4>Blue</h4>
+              <h5>Compra: <span id="blue-compra"></span></h5>
+              <h5>Venta: <span id="blue-venta"></span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-container-all"></footer>
+    </div>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
